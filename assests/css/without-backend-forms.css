@@ -137,7 +137,7 @@ textarea::selection{color: lightgreen;
             font-size: 25px;
         }
         input[type=text]{
-            margin-inline-start: 145px;
+            margin-inline-start: 150px;
             font-size: 25px;
         }
         input[type=email]{
