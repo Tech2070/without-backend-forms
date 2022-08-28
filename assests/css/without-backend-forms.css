@@ -1,0 +1,185 @@
+body {  
+margin:0;  
+padding:0;  
+background: white;
+}  
+a{
+top:50%;  
+left:50%;  
+transform: translate(-50%, -50%);  
+display:contents;  
+}
+a {
+width:60px;  
+height:0px;  
+display:block;  
+text-align:center;  
+border-radius: 50%;  
+padding: 6px;  
+box-sizing: border-box;  
+text-decoration:none;  
+transition: .5s;  
+}  
+a:hover {  
+text-decoration:none;  
+}  
+a .fab {  
+width: 100%;  
+height:100%;  
+display: block;  
+background: linear-gradient(0deg, #fff, #ddd);  
+border-radius: 50%;  
+line-height: calc(0px - 0px);
+font-size:24px;  
+color: #262626;  
+transition: .5s;  
+}
+.linkedin:hover .fab {  
+color: #007bb6;  
+}
+.facebook:hover .fab {  
+color: #3b5998;  
+}  
+.twitter:hover .fab {  
+color: #00aced;  
+} 
+.instagram:hover .fab {  
+color: #e4405f;  
+}  
+.telegram:hover .fab {
+color:#229ED9;
+}
+.youtube:hover .fab{  
+color: #FF0000;
+}
+/* forms css starts */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+margin: 0; 
+}
+h3{
+    margin-inline-start: 80px;
+}
+
+label{
+    margin-inline-start: 10px;
+}
+input[type=submit]{
+    margin-inline-start: 30px;
+}
+input[type=reset]{
+    margin-inline-start: 160px;
+}
+textarea{
+    margin-inline-start: 30px;
+}
+input[type=number]{
+    margin-inline-start: 17px;
+}
+input[type=text]{
+    margin-inline-start: 47px;
+}
+textarea{
+    min-height: 100;
+}
+.container{
+    margin-left: 70px;
+}
+input::selection{color: lightgreen;
+    background-color: black;
+}
+h3::selection{color: lightgreen;
+    background-color: black;
+}
+textarea::selection{color: lightgreen;
+    background-color: black;
+}
+/* Responsive web design starts*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    body {  
+        margin:0;  
+        padding:0;  
+        background: white;
+        }
+    input[type=number]::-webkit-inner-spin-button, 
+    input[type=number]::-webkit-outer-spin-button { 
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        margin: 0; 
+        }
+        h3{
+            margin-inline-start: 50px;
+            font-size: 70px;
+        }
+        label{
+            margin-inline-start: 10px;
+            font-size: 50px;
+        }
+        input[type=submit]{
+            margin-inline-start: 30px;
+            font-size: 40px;
+        }
+        input[type=reset]{
+            margin-inline-start: 400px;
+            font-size: 40px;
+        }
+        textarea{
+            margin-inline-start: 30px;
+            min-height: 100;
+            font-size: 35px;
+        }
+        input[type=number]{
+            margin-inline-start: 55px;
+            font-size: 25px;
+        }
+        input[type=text]{
+            margin-inline-start: 145px;
+            font-size: 25px;
+        }
+        input[type=email]{
+            margin-inline-start: 0px;
+            font-size: 25px
+        }
+        .container{
+            margin-left: 30px;
+        }
+        a{
+            top:50%;
+            left:50%;
+            margin:0;  
+            padding:0;  
+            display:contents;  
+            }  
+        a {
+            width:130px;  
+            height:0px;  
+            display:block;  
+            text-align:center;  
+            margin:0 10px;  
+            border-radius: 50%;  
+            padding: 2px;
+            box-sizing: border-box;  
+            text-decoration:none;  
+            transition: .5s;  
+            }  
+        a:hover {  
+            text-decoration:none;  
+            }  
+        a .fab {  
+            width: 100%;  
+            height:100%;  
+            display:block;
+            background: linear-gradient(0deg, #fff, #ddd);   
+            border-radius: 50%;  
+            line-height: calc(60px - 12px);  
+            font-size:100px;
+            color: #262626;  
+            transition: .5s;  
+            }
+}
+/* Responsive web design ends*/
+/* forms css ends*/
