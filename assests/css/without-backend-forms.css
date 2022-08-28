@@ -136,8 +136,12 @@ textarea::selection{color: lightgreen;
             margin-inline-start: 55px;
             font-size: 25px;
         }
-        input[type=text]{
+        input[name=lastname]{
             margin-inline-start: 150px;
+            font-size: 25px;
+        }
+        input[name=firstname]{
+            margin-inline-start: 145px;
             font-size: 25px;
         }
         input[type=email]{
